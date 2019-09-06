@@ -1,0 +1,17 @@
+{
+  "name": "hash-iterator",
+  "version": "1.0.0",
+  "description": "hash iterator assigment nounce",
+  "main": "hashIterator.js",
+  "scripts": {
+    "test": "node hashIterator.js"
+  },
+  "keywords": [
+    "hash",
+    "iterator",
+    "node",
+    "nodejs"
+  ],
+  "author": "Mihai Dita",
+  "license": "MIT"
+}
