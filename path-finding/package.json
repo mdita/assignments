@@ -1,0 +1,22 @@
+{
+  "name": "path-finding",
+  "version": "1.0.0",
+  "description": "pathfinding assignment",
+  "main": "pathFinding.js",
+  "scripts": {
+    "test": "node pathFinding.js"
+  },
+  "keywords": [
+    "path",
+    "finding",
+    "pathfinding",
+    "assignment",
+    "node",
+    "nodejs"
+  ],
+  "author": "Mihai Dita",
+  "license": "MIT",
+  "dependencies": {
+    "pathfinding": "^0.4.18"
+  }
+}
