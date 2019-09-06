@@ -1,6 +1,11 @@
 const PF = require('pathfinding');
 
-function validateArgs(args) {}
+function validateArgs(args) {
+  if (args.length < 3 || args.length > 3) {
+    console.log('invalid args ... try something like: node pathFinding.js x0y0,x0y1,x1y1,x3y2,x2y2');
+    process.exit(1);
+  }
+}
 function parseCoordinates(coordinates) {
   // let coordinatesValues = new Array(6).fill(0).map(() => new Array(4).fill(0));
   let storecoordinatesValues = {}

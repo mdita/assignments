@@ -45,7 +45,12 @@ function generateHash(salt,difficulty) {
 }
 
 // // TODO: get / validate ARGs
-function validateArgs(args) {}
+function validateArgs(args) {
+  if (args.length <= 3 || args.length > 4) {
+    console.log('invalid args ... try something like: node hashIterator machine-learning 4');
+    process.exit(1);
+  }
+}
 
 function main() {
   validateArgs(process.argv);
